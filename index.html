@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Internet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>The Internet</h1>
+    <h2>By 404 Company</h2>
+
+    <div class="tabs">
+      <button onclick="showTab('web')" class="active">Web</button>
+      <button onclick="showTab('wiki')">Wiki</button>
+      <button onclick="showOnion()">.onion</button>
+    </div>
+
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search The Internet" autofocus />
+      <button type="submit">Start Search</button>
+    </form>
+
+    <div id="results"></div>
+
+    <p class="privacy">
+      Your search is anonymous. No cookies, no tracking.<br/>
+      Want to suggest a new site? <a href="mailto:contact-me.404company@protonmail.com">Contact us</a>.
+    </p>
+
+    <div class="footer">
+      <a href="https://404company.42web.io ">&larr; 404 Company</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
